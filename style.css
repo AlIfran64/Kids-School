@@ -562,6 +562,11 @@ footer {
   flex-direction: column;
   gap: 20px;
 }
+.right-container {
+  padding-bottom: 125px;
+  align-items: start;
+  flex-direction: column;
+}
 .middle-container-title {
   color: #fff;
   font-size: 1.5rem;
@@ -697,6 +702,9 @@ footer ul {
   }
   .footer-sub-title {
     width: 100%;
+  }
+  .right-container {
+    padding-bottom: 0;
   }
 }
 /* Mobile Responsive Styles End */
