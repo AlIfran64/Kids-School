@@ -583,6 +583,16 @@ footer {
   font-weight: 700;
   margin-bottom: 40px;
 }
+footer ul {
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  gap: 30px;
+}
+.footer-img-div {
+  display: flex;
+  gap: 20px;
+}
 
 /* Footer End */
 
@@ -655,9 +665,9 @@ footer {
   }
   .section-3-container {
     grid-template-columns: repeat(2, 100px, 100px);
-    padding: 20px;
+    padding: 10px;
     width: 100%;
-    column-gap: 10px;
+    column-gap: 5px;
   }
   .section-3-item-1 {
     display: none;
